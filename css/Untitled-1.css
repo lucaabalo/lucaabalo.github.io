@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    margin: auto;
+    width: 7%;
+    display: block;
+}
+
+.seccion1 {
+    width: 100%;
+    background-image: url("../imagenes/backroom/bgppal.jpg");
+    overflow:hidden;
+}
+
+.espacio {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.espacio li {
+    float: left;
+    margin: 1.5%;
+    padding: 1%;
+    border-radius: 10px;
+    color: azure;
+}
+
+.espacio li:hover {
+    background-color: #88F4DD;
+    transition-duration: 0.50s;
+
+}
+
+.horarios {
+    width: 100%;
+    padding: 0 30px;
+    overflow: auto;
+    background-color: #09107F;
+    padding-right: 20px;
+    border-right: #474786;
+    border-top: 1px solid #3A6CED;
+    border-bottom: 1px solid #474786;
+}
+
+.partido {
+    float: left;
+    width: 10%;
+    font-size: 11px;
+    border-right: 1px solid #ccc;
+    margin: 1%
+}
+
+.partido p{
+    margin: 3px;
+    letter-spacing: 1px;
+}
+
+.fecha {
+    color: #7276aa;
+    padding-bottom: 8%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.equipo {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.imagen {
+    float: left;
+}
+
+.nombre {
+    float: left;
+    color: white;
+}
+
+.heali {
+    margin-top: 15px;
+    background-color: rgb(28, 17, 133, 70%);
+    float: left;
+    color: azure;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.heali p {
+    float: left;
+    padding-left: 1.5%;
+}
+
+.heali img {
+    float: left;
+    border-color: #474786;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.heali .box1{
+    border-bottom : solid 1px #474786;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.imagencruce img {
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    width: 850px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    border-radius: 4%;
+}
+
+.seccion2 {
+    width: 100%;
+    background-image: url("../imagenes/backroom/bgsponsors.png");
+    overflow: auto;
+
+}
+
+.seccion2 .sponsors{
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin:1% auto;
+}
+
+.seccion2 img {
+    float: left;
+    width: 14%;
+    margin: 1%; 
+
+}
+
+.seccion2 li {
+    padding: 20%;
+}
+
+.seccion3 {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../imagenes/backroom/bggames.png");
+}
+
+.seccion3 .juegos{
+    background-color: #0A0A5D;
+    border-radius: 4%;
+    width: 30%;
+    float: left;
+    color: white;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-left: 0.3%;
+    display: block;
+}
+
+.seccion3 .juegos img:hover{
+    width: 65%;
+}
+
+.seccion3 .juegos img{
+    float: right;
+}
+
+.seccion4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagenes/backroom/bgfooter.jpg");
+}
+.seccion4 .logo{
+    float: left;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+.seccion4 .menuverti{
+    float: right;
+    color: aliceblue;
+    margin-right: 15%;
+    border-left:solid 1px #ccc;
+    margin-top: 1%;
+    padding-left: 2%;
+}
+
+.seccion4 .redes{
+    float: left;
+    margin-top: 20%;
+    margin-left: 40%;
+    width: 50%;
+}
+.seccion4 .redes img{
+    padding-right: 7%;
+    float: left;
+}
+
+.seccion4 .creditos .terminos div {
+    padding-right: 5%;
+    float: left;
+}
+
+.seccion4 .terminos{
+    float: left;
+    margin-left: 30%;
+    width: 50%;
+    color: aliceblue;
+    margin-top: 1%;
+}
+
